@@ -1,8 +1,10 @@
 body {
+    height: 100vh;
     display: flex;
     margin: 0;
     flex-direction: column;
     font-family: Roboto, sans-serif;
+    justify-content:space-between;
 }
 
 a {
@@ -19,9 +21,115 @@ ul {
     gap: 18px;
 }
 
+.section-one {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    background-color: #1F2937;
+    padding: 120px 250px;
+    gap: 50px;
+}
+
+.big-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+}
+
+.left-box {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    width: 500px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.right-box {
+    display: flex;
+    color:#E5E7EB;
+    flex: auto;
+    padding: 20px;
+    width: 500px;
+    background-color: #3882F6;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 700;
+    width: 130px;
+    padding: 5px 15px;
+}
+
+.s1-button {
+    border: none;
+    margin-top: 5px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 250px;
+    text-align: center;
+}
+
+.s2-header {
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.s2-content {
+    display: flex;
+    gap: 50px;
+}
+
+.image {
+    display: flex;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    padding: 90px 80px;
+
+}
+
+.img-text {
+    color: #404f61;
+    font-size: 18px;
+}
+
+.section-four {
+    display: flex;
+    height: 200px;
+    margin: 0px;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-card {
+    display: flex;
+    flex: auto;
+    background-color: #3882F6;
+}
+
+.card-button {
+    border-color:#F9FAF8;
+    border-style: solid;
+}
+
 .header,
 .footer {
     background-color: #1F2937;
+    justify-content: space-between;
+    flex-shrink: 0;
 }
 
 .header {
@@ -29,7 +137,8 @@ ul {
     font-size: 24px;
     color: #F9FAF8;
     justify-content: space-between;
-    padding: 8px 100px;
+    align-items: center;
+    padding: 8px 250px;
 }
 
 .footer {
